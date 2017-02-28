@@ -1,7 +1,12 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('/fonts/OpenSans-Regular.ttf');
+}
+
 body {
     background: #efefef;
     color: #171717;
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     letter-spacing: 2px;
     padding-bottom: 60px;
 }
@@ -27,9 +32,7 @@ hr {
 }
 
 h1 {
-    font-size: 2.5em;
-    font-weight: bolder;
-    text-transform: uppercase;
+    font-size: 3em;
     color: #000;
     margin: 0;
 }
@@ -60,7 +63,7 @@ a {
     line-height: 1.7em;
     font-weight: lighter;
     letter-spacing: 1px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 li {
